@@ -9,10 +9,10 @@
             double pessoaMesmoS;
 
             //inicializando as variavéis
-            c_pessoas = 0;
-            c_mulheres = 0;
-            n_mulheres = 0;
-            m_idade = 0;
+            c_pessoas = 0; // quantidade de pessoas entrevistadas
+            c_mulheres = 0;  //a quantidade de mulheres entrevistadas nas condições estabelecidas
+            n_mulheres = 0;  //o número de mulheres entrevistadas
+            m_idade = 0;   // a maior idade informada 
 
             Console.WriteLine("Informe a idade do entrevistado, -1 para sair: ");
             idade = Int32.Parse(Console.ReadLine());
